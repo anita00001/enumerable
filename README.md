@@ -1,4 +1,4 @@
-# Enumerable
+# Create our own Enumerable
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -19,9 +19,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Enumerable <a name="about-project"></a>
+# 📖 MyEnumerable <a name="about-project"></a>
 
-> **Enumerable** is a ............
+> **MyEnumerable** is a module which is the collection of three methods *my_all?*, *my_any?* and *my_filter* that allows user to perform operations on collections without having to write explicit loops.
+> - *Enumerable refers to a module that provides a set of methods for working with collections, such as arrays and hashes, in a flexible and convenient way.*
 
 ## 🛠 Built With <a name="built-with"></a>
 > This project is built with Ruby.
@@ -35,9 +36,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-> - **Feature1**
-> - **Feature2**
-> - **Feature3**
+> - **Implement Customized module**
+> - **Implement Customized methods inside module**
+> - **Use of module inside a class**
+> - **Implement my_all? method that resembles all? method in Ruby**
+> - **Implement my_any? method that resembles any? method in Ruby**
+> - **Implement my_filter method that resembles filter method in Ruby**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,6 +76,10 @@ Install this project with:
 
 ```sh
   gem install
+```
+
+```sh
+  gem install rubocop
 ```
 
 ```sh
