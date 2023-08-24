@@ -83,7 +83,7 @@ Install this project with:
 > To run the project, execute the following command:
 
 ```sh
-  ruby main.rb
+  ruby list_test_case.rb
 ```
 
 ### Run tests
